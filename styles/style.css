@@ -61,6 +61,11 @@ nav {
     color: var(--brandColor);
 }
 
+.menu a:hover{
+    color: var(--brandColor-hover);
+    opacity: 0.8;
+}
+
 .MainTitle {
     display: flex;
     justify-content: center;
@@ -93,13 +98,18 @@ nav {
     border: none;
     padding: 20px 40px;
     margin-bottom: 142px;
+    cursor: pointer;
+}
+
+.MainTitle__wrapper button:hover{
+ background-color: var(--brandColor-hover);
 }
 
 .AboutTitle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 112px;
+    padding-top: 112px;
 }
 
 .AboutTitle__wrapper {
