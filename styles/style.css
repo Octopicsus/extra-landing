@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'RobotoR';
-    src: url('/fonts/Roboto-Regular.ttf');
+    src: url('/extra-landing/fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: 'RobotoM';
-    src: url('/fonts/Roboto-Medium.ttf');
+    src: url('/extra-landing/fonts/Roboto-Medium.ttf');
 }
 
 :root {
@@ -25,7 +25,7 @@ body {
     background-color: rgb(249, 249, 249);
     font-family: var(--robotoR);
     font-size: 16px;
-    background-image: url(/img/Rectangle.png);
+    background-image: url(/extra-landing/img/Rectangle.png);
     background-repeat: no-repeat;
     background-size: 100% 700px;
     position: top;
@@ -157,7 +157,7 @@ h2 {
 }
 
 .Work__Card__icon {
-    background-image: url(/img/project.svg);
+    background-image: url(/extra-landing/img/project.svg);
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
@@ -203,7 +203,7 @@ h2 {
     margin: 0 auto;
     width: 1110px;
     height: 600px;
-    background-image: url(/img/demo.png);
+    background-image: url(/extra-landing/img/demo.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +213,7 @@ h2 {
 .DemoVideo__playIcon{
     width: 100px;
     height: 100px;
-    background-image: url(/img/play-button.svg);
+    background-image: url(/extra-landing/img/play-button.svg);
     cursor: pointer;
 }
 
