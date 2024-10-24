@@ -8,8 +8,9 @@
     src: url('/fonts/Roboto-Medium.ttf');
 }
 
-:root{
+:root {
     --brandColor: rgb(52, 84, 122);
+    --brandColor-hover: rgb(60, 96, 139);
     --altColor: rgb(114, 114, 114);
     --navTitleSize: 16px;
     --h1TitleSize: 48px;
@@ -18,4 +19,102 @@
     --mainWrapper-Width: 1110px;
     --robotoR: 'RobotoR';
     --robotoM: 'RobotoM';
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+    font-family: var(--robotoR);
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+nav {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    width: var(--mainWrapper-Width);
+}
+
+.menu {
+    display: flex;
+    gap: 42px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: var(--robotoR);
+    font-size: 16px;
+    color: var(--brandColor);
+}
+
+.MainTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainTitle__wrapper{
+    width: var(--mainWrapper-Width);
+}
+
+.MainTitle h1{
+    font-family: var(--robotoM);
+    font-size: 48px;
+    color: black;
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+
+.MainTitle__wrapper div{
+    width: 540px;
+    line-height: 24px;
+    color: var(--altColor);
+    margin-bottom: 68px;
+}
+
+.MainTitle__wrapper button{
+    font-size: 16px;
+    color: white;
+    background-color: var(--brandColor);
+    border: none;
+    padding: 20px 40px;
+    margin-bottom: 142px;
+}
+
+.AboutTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutTitle__wrapper{
+    width: var(--mainWrapper-Width);
+}
+
+h2{
+    font-family: var(--robotoM);
+    font-size: 32px;
+}
+
+.AboutTitle__wrapper h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.AboutTitle__wrapper div{
+    width: 540px;
+    line-height: 24px;
+    color: var(--altColor);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
